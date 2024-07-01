@@ -70,7 +70,7 @@ export const PersonalHeader = () => {
 							href="/"
 							aria-label={`${publication.author.name}'s blog home page`}
 						>
-							{publication.author.profilePicture && (
+							{/* {publication.author.profilePicture && (
 								<img
 									className="block h-8 w-8 rounded-full fill-current"
 									alt={publication.author.name}
@@ -80,7 +80,7 @@ export const PersonalHeader = () => {
 										c: 'face',
 									})}
 								/>
-							)}
+							)} */}
 							{publication.title}
 						</Link>
 					</h1>
